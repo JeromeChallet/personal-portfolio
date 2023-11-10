@@ -1,0 +1,11 @@
+#welcome-section {
+  height: 100vh;
+}
+
+#navbar {
+  top: 0;
+  position: fixed;
+}
+
+@media (max-width: 300px) {
+}
