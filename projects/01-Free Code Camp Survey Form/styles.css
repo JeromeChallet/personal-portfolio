@@ -1,0 +1,169 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.4;
+  top: 0;
+  left: 0;
+
+  background-size: cover;
+  position: relative;
+}
+
+img {
+  background-image: linear-gradient(
+    90deg,
+    rgba(58, 58, 158, 0.8),
+    rgba(136, 136, 206, 0.7)
+  );
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 0 0 0.5rem 0;
+}
+
+form {
+  width: 35vw;
+  height: 100%;
+  min-width: 300px;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: rgba(27, 27, 50, 0.8);
+  border-radius: 0.25rem;
+  display: block;
+  /* box-sizing: border-box; */
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  resize: vertical;
+  min-height: 120px;
+  text-align: start;
+  text-wrap: wrap;
+  overflow-wrap: break-word;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  box-sizing: border-box; /* resize the parent container */
+  font-size: inherit;
+}
+
+label {
+  display: block;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+#game-type {
+  display: block;
+  width: 100%;
+  margin: 0 auto 1em auto;
+  height: 2.375rem;
+  padding: 0 0.5rem;
+  color: #495057;
+  background-clip: padding-box;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-size: 1.1rem;
+  background-color: #fff;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0 0 1em 0;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #37af65;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1em;
+  color: inherit;
+  border: none;
+  font-size: inherit;
+}
+
+#consoles {
+  display: flex;
+}
+
+#right {
+  flex-grow: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#left {
+  flex-grow: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 3.125rem auto 0 auto;
+}
+
+#title {
+  margin-bottom: 0;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+#description {
+  margin-top: 0;
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+#game-type {
+  margin-bottom: 0;
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Video Game Survey Form</title>
+  </head>
+  <body>
+    <img
+      src="img/bck.png"
+      alt="pixel page"
+    />
+    <div class="container">
+      <h1 id="title">Video Game Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+
+      <form id="survey-form">
+        <fieldset>
+          <!-- NAME -->
+          <label for="name-label"
+            ><p>Name</p>
+            <input
+              id="name-label"
+              type="text"
+              required
+              placeholder="Enter your name"
+          /></label>
+          <!-- EMAIL -->
+          <label for="email-label"
+            ><p>Email</p>
+            <input
+              id="email-label"
+              required
+              type="email"
+              placeholder="Enter your email"
+          /></label>
+          <!-- AGE -->
+          <label for="number-label"
+            ><p>Age</p>
+            <input
+              id="number-label"
+              type="number"
+              min="18"
+              max="120"
+              placeholder="Age"
+          /></label>
+          <!-- DROPDOWN -->
+          <label for="game-type"
+            ><p>What kind of game do you like?</p>
+            <select
+              id="game-type"
+              placeholder="(select one)"
+            >
+              <option
+                disabled
+                selected
+                value
+              >
+                (select one)
+              </option>
+              <option value="1">Action</option>
+              <option value="2">RPG</option>
+              <option value="3">RTS</option>
+              <option value="4">FPS</option>
+              <option value="5">Simulation</option>
+              <option value="6">Sports</option>
+              <option value="7">QTE</option>
+              <option value="8">Fighting</option>
+              <option value="9">Casual</option>
+              <option value="10">Puzzle</option>
+              <option value="11">Survival</option>
+              <option value="12">Other</option>
+            </select></label
+          >
+        </fieldset>
+        <!-- RADIO BTN -->
+        <fieldset>
+          <legend>
+            <p>Would you recommend to play video games to a friend?</p>
+          </legend>
+          <label for="radio-yes">
+            <input
+              id="radio-yes"
+              type="radio"
+              name="recommendation"
+              checked
+            />
+            Definitely</label
+          ><label for="radio-no">
+            <input
+              id="radio-no"
+              type="radio"
+              name="recommendation"
+            />
+            Absolutely not
+          </label>
+          <label for="radio-maybe">
+            <input
+              id="radio-maybe"
+              type="radio"
+              name="recommendation"
+            />
+            Not sure
+          </label>
+        </fieldset>
+        <!-- CHECKBOXES -->
+        <p>What kind of system do you, or have you owned?</p>
+        <fieldset id="consoles">
+          <label
+            for="checkboxes"
+            id="left"
+          >
+            <div>
+              <input
+                type="checkbox"
+                value="Front-end Projects"
+              />
+              Atari
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Nintendo NES
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Nintendo SNES
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Nintendo 64
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Nintendo WII
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Nintendo WII U
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Nintendo Switch
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Sega Megadrive
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Sega Saturn
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Sega Dreamcast
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Sony PS1
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Sony PS2
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Sony PS3
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Sony PS4
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Sony PS5
+            </div>
+          </label>
+
+          <label
+            for="checkboxes"
+            id="right"
+          >
+            <div>
+              <input
+                type="checkbox"
+                value="Front-end Projects"
+              />
+              Nintendo GameBoy
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Front-end Projects"
+              />
+              Nintendo GameBoy Color
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Front-end Projects"
+              />
+              Nintendo GBA
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Front-end Projects"
+              />
+              Nintendo DS
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Front-end Projects"
+              />
+              Nintendo 3DS
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Sega GameGear
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Sony PSP
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Sony PSVita
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Steam Deck
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Microsoft Xbox
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Microsoft Xbox 360
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Microsoft Xbox One
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Microsoft Xbox Series X
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                value="Back-end Projects"
+              />
+              Microsoft Xbox Series S
+            </div>
+          </label>
+        </fieldset>
+        <!-- TEXT AREA -->
+        <label for="memory">
+          <p>What is your most memorable souvenir when playing a video game?</p>
+          <textarea
+            id="memory"
+            name="memory-text"
+            rows="3"
+            cols="30"
+            placeholder="My best memory as a gamer would be..."
+          ></textarea>
+        </label>
+        <!-- BUTTON -->
+        <button
+          id="submit"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,10 +1,10 @@
 # Technical Web Page
 
-Welcome to my Personal Portfolio, a simple HTML and CSS page designed to learn about my talents as a developer.
+Welcome to the Landing page for a magazine, a simple HTML and CSS page designed to learn about my talents as a translator.
 
 ## Introduction
 
-This project is a basic web page created using HTML and CSS and very little JS. It's intended for educational purposes or as a starting point for web development projects. Its purpose remains to be as simple as possible, no JS if it can efficiently be put in HTML CSS.
+This project is a basic web page created using HTML and CSS. It's intended for educational purposes or as a starting point for web development projects. The web page is static, without any backend logic or JavaScript functionality, making it easy to understand and modify.
 
 ## Features
 
@@ -20,5 +20,5 @@ To get started with this project, simply clone the repository or download the so
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/jrme421/personal-portfolio.git
+   git clone https://github.com/jrme421/product-landing-page.git
    ```
