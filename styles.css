@@ -44,6 +44,8 @@ li {
 a {
   text-decoration: none;
   color: var(--main-white);
+  display: list-item;
+  text-align: -webkit-match-parent;
 }
 
 a:webkit-any-link {
