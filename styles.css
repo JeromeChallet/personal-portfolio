@@ -148,6 +148,7 @@ img {
 
 .projects-grid {
   display: grid;
+  list-style: none;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
   width: 100%;
