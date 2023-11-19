@@ -1,4 +1,4 @@
-# Technical Web Page
+# Landing Web Page
 
 Welcome to the Landing page for a magazine, a simple HTML and CSS page designed to learn about my talents as a translator.
 

@@ -1,4 +1,4 @@
-# Census Web Page
+# Tribute Web Page
 
 Welcome to the Tribute Page to Michael Crichton, a simple HTML and CSS page designed to learn about his lifetime accomplishements.
 
