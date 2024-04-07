@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  background: darkgray;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#verticalButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 5px 7px 5px;
+  margin: 2px;
+  cursor: pointer;
+}
+button:hover {
+  background: blue;
+}
+
+#networkCanvas,
+#carCanvas {
+  background: black;
+}
+
+#carCanvas {
+  background: lightgray;
+}
+
+@media screen and (max-device-width: 390px) {
+  body {
+    position: relative;
+    align-items: stretch;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  #carCanvas,
+  #networkCanvas {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+#verticalButtons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* Align buttons at the start of the container */
+  align-items: flex-end; /* Align buttons at the bottom of the container */
+}
+
+.button {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
